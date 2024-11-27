@@ -1,6 +1,7 @@
 # Endeavour Aerospace ToDo List
 Urgent
 - Change the hard coded maximum simulation time of 1200s to something larger like 10000s. This time is hard coded in OpenRocket is this file: openrocket/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java
+
 Long Term Goals
 - Make a GUI option to set the maximum simulation time in the edit simulation, simulation options tab underneath the time step setting with the same format as the time step setting
 - Add a custom component finish option
