@@ -1,3 +1,18 @@
+# Endeavour Aerospace ToDo List
+Urgent
+MAKE SURE THIS IS ON THE MASTER BRANCH
+- Change the hard coded maximum simulation time of 1200s to something larger like 10000s. This time is hard coded in OpenRocket is this file: openrocket/core/src/main/java/info/openrocket/core/simulation/BasicEventSimulationEngine.java
+
+Long Term Goals
+ADD THESE TO THE UNSTABLE BRANCH
+- Make a GUI option to set the maximum simulation time in the edit simulation, simulation options tab underneath the time step setting with the same format as the time step setting
+- Add a custom component finish option
+     - In the configuration menu for a component add a custom finish option under the component finish in the material section.
+     - Add a tickbox like other places (for example the launch into wind tickbox that looks out the launch rail heading option) to enable the custom finish
+     - Under the tickbox have the option to set the surface roughness to any value you want like any other parameter eg component length. (micrometers)
+     -  Also allow this custom finish to be set for all and have it update all other components
+- Add wave drag to fix supersonic simulations
+
 # OpenRocket 🚀
 
 OpenRocket is a free, fully featured model rocket simulator that allows you to design and simulate your rockets before actually building and flying them.
